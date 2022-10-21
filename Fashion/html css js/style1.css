@@ -549,7 +549,7 @@ h3{
     background-color: white;
     z-index: 1;
     transition: 1.5s ease;
-    visibility: hidden;
+    display: none;
 }
 
 .lino0{
@@ -610,7 +610,7 @@ h3{
         top: -250px;
         width: 100%;
         z-index: 1;
-        visibility: visible;
+        display: block;
     }
 
     .lino1{
