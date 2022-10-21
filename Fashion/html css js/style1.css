@@ -542,7 +542,7 @@ h3{
 
 .menu-bar{
     position: absolute;
-    top: 0;
+    top: -250;
     left: 0;
     height: 150px;
     width: 100%;
