@@ -600,13 +600,12 @@ h3{
 @media only screen and (max-width: 1530px){
 
     .nav1{
-        position: fixed;
+        position: relative;
         width: 100%;
         z-index: 2;
     }
 
     .menu-bar{
-        position: fixed;
         top: -250px;
         display: flex;
         align-items: center;
@@ -650,7 +649,7 @@ h3{
 
 
     .background5{
-        height: 800px;
+        height: 500px;
     }
 
     .container4{
@@ -661,6 +660,10 @@ h3{
 
     .text-box1{
         flex-basis: 600px;
+    }
+
+    .enp1{
+        display: none;
     }
 
 
