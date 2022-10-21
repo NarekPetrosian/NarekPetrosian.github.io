@@ -653,7 +653,7 @@ h3{
     }
 
     .container4{
-        height: 500px;
+        height: 400px;
         flex-wrap: wrap;
         justify-content: space-around;
     }
@@ -684,6 +684,14 @@ h3{
     .text-box{
         flex-basis: 60%;
         text-align: center;
+    }
+
+    .enp1{
+        display: none;
+    }
+
+    .container4{
+        height: 400px;
     }
 }
 
@@ -719,6 +727,15 @@ h3{
         justify-content: center;
         height: 330px;
     }
+
+    .enp1{
+        display: none;
+    }
+
+    
+    .container4{
+        height: 400px;
+    }
 }
 
 
@@ -730,5 +747,13 @@ h3{
     .container1{
         height: 1100px;
         flex-wrap: wrap;
+    }
+
+    .enp1{
+        display: none;
+    }
+
+    .container4{
+        height: 400px;
     }
 }
