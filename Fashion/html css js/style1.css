@@ -550,7 +550,7 @@ h3{
     background-color: white;
     z-index: 1;
     transition: 1.5s ease;
-    display: none;
+    display: block;
 }
 
 .lino0{
