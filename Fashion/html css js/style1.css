@@ -610,7 +610,7 @@ h3{
         top: -250px;
         width: 100%;
         z-index: 1;
-        display: block;
+        visibility: visible;
     }
 
     .lino1{
@@ -635,6 +635,10 @@ h3{
         display: none;
     }
 
+    .container1{
+        flex-basis: auto;
+    }
+
 
 
     .background3{
@@ -643,6 +647,7 @@ h3{
 
     .container2{
         height: 1000px;
+        flex-basis: auto;
     }
 
 
@@ -653,6 +658,7 @@ h3{
 
     .container4{
         height: 400px;
+        flex-basis: auto;
         flex-wrap: wrap;
         justify-content: space-around;
     }
@@ -673,6 +679,7 @@ h3{
 
     .container5{
         height: 800px;
+        flex-basis: auto;
         flex-wrap: wrap;
     }
 }
