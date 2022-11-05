@@ -599,6 +599,10 @@ h3{
 }
 
 @media only screen and (max-width: 1530px){
+    
+    html{
+        overflow-y: hidden;
+    }
 
     .nav1{
         position: relative;
