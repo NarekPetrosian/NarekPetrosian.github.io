@@ -676,11 +676,11 @@ h3{
 
 @media only screen and (min-width: 1530px){
     .sp1{
-    visibility: none;
+    visibility: hidden;
     }
 
     .sp2{
-    visibility: none;
+    visibility: hidden;
     }
 }
 
