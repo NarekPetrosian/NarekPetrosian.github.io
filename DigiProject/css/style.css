@@ -84,7 +84,7 @@ header{
 }
 
 .firststage_textblock{
-    height: 100%;
+    height: 70%;
     display: flex;
     flex-basis: 60%;
     flex-wrap: wrap;
@@ -984,6 +984,17 @@ header{
 }
 
 
+.firststage_textblock_about{
+    height: 100%;
+    display: flex;
+    flex-basis: 60%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 .forgot-pass a{
     font-size: 13px;
     color: #37A7BB;
@@ -1084,10 +1095,10 @@ header{
     position: fixed;
     height: 42vh;
     width: 39vh;
-    border-radius: 34px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
 }
 
 }
-
-
-
