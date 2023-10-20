@@ -26,25 +26,20 @@
 
 <body>
 
-
     <div class="firststage">
 
         <div class="firststage_textblock">
             <div class="firststage_box">
                 <div class="firststage_textblock_upper">
                     <h2>Welcome to</h2>
-                    <h2>DG Learn!</h2>
+                    <h2>DGLearn!</h2>
                 </div>
                 <div class="firststage_textblock_first">
 
                     <p>Searching for an easy way to discover the Digitain planet? You are in the right place. Here, you'll dive deep into each Digitain product's specifications, study them thoroughly, and immediately apply your newfound knowledge in your workspace.</p>
         
                 </div>
-                <div class="bottondiv">
-                    <button class="firststage_box_button">
-                        START YOUR JOURNEY
-                    </button>
-                </div>
+                
             </div>
         </div>
 
@@ -87,7 +82,7 @@
 
     <div class="thirdstage">
 
-        <div class="thirdstage_header">Digitain products</div>
+        <div class="thirdstage_header">Digitain Products</div>
         <div class="thirdstage_products">
             <div class="card_box">
                 <div class="card card1"></div>
@@ -138,7 +133,7 @@
                     <p>Engaging Gamification</p>
                 </div>
                 <div class="card_box_text_main">
-                    <p>DG Learn infuses the learning experience with interactive elements, employing gamification, making it engaging and enjoyable.</p>
+                    <p>DGLearn infuses the learning experience with interactive elements, employing gamification, making it engaging and enjoyable.</p>
                 </div>
             </div>
 
@@ -166,12 +161,12 @@
             
             <div class="sixhstage_section">
                 <div class="sixhstage_section_header"><p>Interactive Live Discussions and Webinars</p></div>
-                <div class="sixhstage_section_body"><p>DG Learn facilitates live discussion forums and webinars, creating a vibrant space for real-time interaction, knowledge exchange, and valuable networking opportunities. </p></div>
+                <div class="sixhstage_section_body"><p>DGLearn facilitates live discussion forums and webinars, creating a vibrant space for real-time interaction, knowledge exchange, and valuable networking opportunities. </p></div>
             </div>
 
             <div class="sixhstage_section">
                 <div class="sixhstage_section_header"><p>Progress Tracking</p></div>
-                <div class="sixhstage_section_body"><p>DG Learn provides robust progress tracking and analytics, empowering learners to make informed decisions about their professional growth.</p></div>
+                <div class="sixhstage_section_body"><p>DGLearn provides robust progress tracking and analytics, empowering learners to make informed decisions about their professional growth.</p></div>
             </div>
             
         </div>
@@ -194,19 +189,21 @@
 
     </div>
 
+     
+     
     <div class="login_popup">
         <form method="post" action="https://dglearn.talentlms.com/index">
             <label class="signin">Sign in</label>
             <input type="hidden" name="_track_login_form" value="1697088921" class="" id="98779760">
             <input type="hidden" name="_redirect_" value="" class="" id="_redirect_">
-            <input type="hidden" name="_loginToken" value="ad29ba80890210314be8eb722dc537dc" class="" id="_loginToken">
+            <input type="hidden" name="_loginToken" value="abeb568570bc6d0d952d4856041cc3b4" class="" id="_loginToken">
             <input type="hidden" name="course-id" value="0" class="tl-catalog-course-id" id="course-id">
             <input type="hidden" name="category-id" value="0" class="tl-catalog-category-id" id="category-id">
             <input type="hidden" name="group-id" value="0" class="tl-catalog-group-id" id="group-id">
             <input type="hidden" name="catalog-get-subscription" value="0" class="tl-catalog-get-subscription" id="catalog-get-subscription">
             <input type="hidden" name="login-referrer" value="" class="" id="login-referrer">
               <div class="data">
-                 <label>Email or Phone number</label>
+                 <label>Email</label>
                  <input type="text" name="login" placeholder="myemail@email.com" required>
               </div>
               <div class="data">
@@ -221,21 +218,17 @@
                  <button type="submit">Login</button>
               </div>
               <div class="signup-link">
-                 Not a member? <a href="#">Signup now</a>
+                
               </div>
            </form>
     </div>
-
-     
+    
 </body>
 
 <script>
-    document.querySelector('.firststage_box_button').addEventListener('click', () => {
-        window.location = 'https://dglearn.talentlms.com/';
-    });
 
-
-    let i = 0;
+    
+        let i = 0;
 
 document.getElementById('login').addEventListener('click', ()=>{
 
@@ -243,16 +236,23 @@ document.getElementById('login').addEventListener('click', ()=>{
 
     if(i == 0){
         loginPopup.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
         i++;
     }else{
         loginPopup.style.display = 'none';
+        document.body.style.overflow = 'auto';
         i--;
     }
 
-
-
 });
 
+document.querySelector('.firststage').addEventListener('click', ()=>{
 
+    var loginPopup = document.querySelector('.login_popup');
+	i = 0;
+    loginPopup.style.display = 'none';
+    document.body.style.overflow = 'auto';
+    
+});
 </script>
 </html>
