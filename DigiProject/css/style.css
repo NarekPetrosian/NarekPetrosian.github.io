@@ -504,6 +504,7 @@ header{
 .card_box_text_main p{
     color: #28282899;
     font-size: 24px;
+    text-align: justify;
 }
 
 .icon1{
