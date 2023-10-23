@@ -1,7 +1,7 @@
 <?php
 
-$Username = $_GET['username'];
-$Password = $_GET['password'];
+$Username = $_POST['username'];
+$Password = $_POST['password'];
 
 $url = 'https://dglearn.talentlms.com/api/v1/userlogin';
 $api_key = 'xwccIRP8Gtl1b1hBQVL8AHhMhGalHn';
